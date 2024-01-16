@@ -14,7 +14,7 @@ public class AmazonSearchTest {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:\Users\dac.STUDENTSDC\Downloads\chromedriver_win32");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
